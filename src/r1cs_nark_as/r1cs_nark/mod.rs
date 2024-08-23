@@ -71,7 +71,7 @@ where
         out
     }
 
-    /// Performs a setup for R1CS. This function does not currently do anything meaning.
+    /// Performs a setup for R1CS. This function does not currently do anything meaningful.
     pub fn setup() -> PublicParameters {}
 
     /// Outputs a specialized prover and verifier key for some R1CS instance.

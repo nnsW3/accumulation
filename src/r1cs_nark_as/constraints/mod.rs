@@ -166,7 +166,7 @@ where
         Ok((outputs_fe, outputs_bits))
     }
 
-    /// Blinds the commitments from the first round messages.
+    /// Blinds the commitments from the first round of messages.
     #[tracing::instrument(
         target = "r1cs",
         skip(nark_matrices_hash, input_instances, nark_sponge)

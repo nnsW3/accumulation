@@ -15,7 +15,7 @@ pub struct PredicateIndex {
     /// The degree bound supported by IpaPC.
     pub supported_degree_bound: usize,
 
-    /// The hiding bound supported by IpaPC.
+    /// The hiding bound is supported by IpaPC.
     pub supported_hiding_bound: usize,
 }
 
